@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+	
+}
+
+
+.ui-icon-bhome {
+	background: url("CustomIcons/settings.png") no-repeat rgba(0, 0, 0, 0.4)  !important;
+	}
+	
+
+
+
+#hlFind .ui-icon-custom {
+    background:url("CustomIcons/settings.png") no-repeat scroll 0 0 transparent;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-bhome, .ui-icon-custom {
+		background: url("settings@2x.png") no-repeat rgba(0, 0, 0, 0.4) !important;
+		background-size: 18px 18px;		
+	}
+	// more declarations here
+	
+}
